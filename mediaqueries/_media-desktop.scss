@@ -1,0 +1,71 @@
+@import "./mediaqueries/media-desktop";
+/*Media Q para escritorio*/
+@media (min-width: 1025px) {
+    .textcenter {
+      font-size: 32px;
+      margin-top: 60px;
+    }
+  
+    .tituloh2 {
+      font-size: 48px;
+      margin-top: 60px;
+      margin-left: 40px;
+    }
+  
+    .textodescriptivo {
+      font-size: 30px;
+      margin-left: 100px;
+      margin-right: 100px;
+      text-align: center;
+    }
+  
+    .contenedor {
+      margin-top: 50px;
+      margin-left: 10%;
+      margin-right: 10%;
+      flex-wrap: nowrap;
+    }
+  
+    .tutordecafe {
+      width: 400px;
+      height: 450px;
+      margin-left: 50px;
+    }
+  
+    .grid1 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      font-size: 28px;
+    }
+  
+    .espresso {
+      height: auto;
+      width: 300px;
+      margin-top: 5%;
+    }
+  
+    .inscripciones {
+      margin-left: 50px;
+      padding: 15px;
+    }
+  
+    .wpp {
+      width: 60px;
+      right: 35px;
+      bottom: 100px;
+    }
+  
+    .flatwhite,
+    .rosetta {
+      margin-left: 5cm;
+      margin-top: 20px;
+    }
+  
+    .p-descripcion,
+    .parrafo1,
+    .parrafo2,
+    .parrafonumero1,
+    .parrafonumero2 {
+      font-size: 18px;
+      margin-left: 20px;
+    }
+  }

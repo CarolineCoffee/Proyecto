@@ -1,0 +1,70 @@
+@import "./mediaqueries/media-tablet";
+/*Media Q para tabletas*/
+@media (min-width: 600px) and (max-width: 1024px) {
+    .textcenter {
+      font-size: 26px;
+      margin-top: 50px;
+    }
+  
+    .tituloh2 {
+      font-size: 40px;
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+  
+    .textodescriptivo {
+      font-size: 28px;
+      margin-left: 50px;
+      margin-right: 20px;
+      text-align: center;
+    }
+  
+    .contenedor {
+      margin-top: 40px;
+      margin-left: 2cm;
+      margin-right: 20px;
+    }
+  
+    .tutordecafe {
+      width: 300px;
+      height: 350px;
+      margin-left: 50px;
+    }
+  
+    .grid1 {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      font-size: 24px;
+    }
+  
+    .espresso {
+      height: auto;
+      width: 200px;
+      margin-top: 5%;
+    }
+  
+    .inscripciones {
+      margin-left: 20px;
+      padding: 12px;
+    }
+  
+    .wpp {
+      width: 50px;
+      right: 25px;
+      bottom: 70px;
+    }
+  
+    .flatwhite,
+    .rosetta {
+      margin-left: 2cm;
+      margin-top: 20px;
+    }
+  
+    .p-descripcion,
+    .parrafo1,
+    .parrafo2,
+    .parrafonumero1,
+    .parrafonumero2 {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  }

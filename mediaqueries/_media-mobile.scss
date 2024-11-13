@@ -1,0 +1,70 @@
+@import "./mediaqueries/media-mobile";
+/*Media query para pantallas móviles*/
+@media (max-width: 400px) {
+    .textcenter {
+      font-size: 24px;
+      margin-top: 40px;
+    }
+  
+    .tituloh2 {
+      font-size: 32px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  
+    .textodescriptivo {
+      font-size: 24px;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+    }
+  
+    .contenedor {
+      margin-top: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  
+    .tutordecafe {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .grid1 {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      font-size: 18px;
+    }
+  
+    .espresso {
+      height: auto;
+      width: 100%;
+      margin-top: 5%;
+    }
+  
+    .inscripciones {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .wpp {
+      width: 50px;
+      right: 15px;
+      bottom: 50px;
+    }
+  
+    .flatwhite,
+    .rosetta {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .p-descripcion,
+    .parrafo1,
+    .parrafo2,
+    .parrafonumero1,
+    .parrafonumero2 {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  }
